@@ -5,7 +5,7 @@ footer {
 	justify-content:space-around;
 	align-items:center;
 	align-content: space-around;
-	background-color: #333;
+	background-color: rgba(189, 195, 199,1.0);
 	position: relative;
 	float: left;
 	padding: 2% 0;

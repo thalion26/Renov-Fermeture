@@ -3,29 +3,49 @@
 <head>
 	<link rel="icon" type="image/png" href="images/favicon.png" />
   	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   	<title>Rénov' Fermetures</title>
 
   	<link rel="stylesheet" href="CSS/style.css">
   	<link rel="stylesheet" href="CSS/owl.carousel.css">
   	<link rel="stylesheet" href="CSS/navbar.css">
   	<link rel="stylesheet" href="CSS/footer.css">
-
 </head>
 
-<body>
-	<div class="nav_container">
-		<img src="images/banniere.jpg" class="banniere">
-		<div class='navbar'>
-			<ul>
-				<li class='active'><a href='index.html'><span>Accueil</span></a></li>
-				<li><a href='bois.html'><span>Bois</span></a></li>
-
-				<li><a href='pvc.html'><span>PVC</span></a></li>
-				<li><a href='alu.html'><span>Alu</span></a></li>
-				<li><a href='acier.html'><span>Acier</span></a></li>
-				<li class='last'><a href='#'><span>Nous Contacter</span></a></li>
-			</ul>
-		</div>
+<body onload="initialize()">
+	<img src="images/banniere.jpg" class="banniere">
+	<div class='navbar'>
+		<ul>
+			<li class='active'><a href='index.html'><span>Accueil</span></a></li>
+			<li><a href='bois.html'><span>Bois</span></a>
+				<ul class="sous-menu">
+					<li><a href="bois.html#bois-f">Fenêtres</a></li>
+					<li><a href="bois.html#bois-p">Portes</a></li>
+					<li><a href="bois.html#bois-v">Volets</a></li>
+				</ul>
+			</li>
+			<li><a href='pvc.html'><span>PVC</span></a>				
+				<ul class="sous-menu">
+						<li><a href="pvc.html#pvc-f">Fenêtres</a></li>
+						<li><a href="pvc.html#pvc-p">Portes</a></li>
+						<li><a href="pvc.html#pvc-pf">Portes Fenêtres</a></li>
+					</ul>
+				</li>
+			<li><a href='alu.html'><span>Alu</span></a>
+				<ul class="sous-menu">
+					<li><a href="alu.html#alu-b">Baies Vitrées</a></li>
+					<li><a href="alu.html#alu-p">Portes</a></li>
+					<li><a href="alu.html#alu-v">Volets</a></li>
+					<li><a href="alu.html#alu-g">Portes de Garages</a></li>
+				</ul>
+			</li>
+			<li><a href='acier.html'><span>Acier</span></a>
+				<ul class="sous-menu">
+					<li><a href="acier.html">Portes de Garages</a></li>
+				</ul>
+			</li>
+			<li class='last'><a href='#'><span>Nous Contacter</span></a></li>
+		</ul>
 	</div>
 	
 	<div class="carousel">
@@ -45,49 +65,32 @@
   	<script src="JS/owl.carousel.min.js"></script>
   	<script src="JS/carousel.js"></script>
 	<article>
-		<h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h1>
-		
-		<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
-		
-		<h2>Header Level 2</h2>
-		
-		<ol>
-			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-			<li>Aliquam tincidunt mauris eu risus.</li>
-		</ol>
-		
-		<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
-		
-		<h3>Header Level 3</h3>
-		
-		<ul>
-			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-			<li>Aliquam tincidunt mauris eu risus.</li>
-		</ul>
-	</article>
-	<article>
-		<<h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h1>
-		
-		<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
-		
-		<h2>Header Level 2</h2>
-		
-		<ol>
-			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-			<li>Aliquam tincidunt mauris eu risus.</li>
-		</ol>
-		
-		<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
-		
-		<h3>Header Level 3</h3>
-		
-		<ul>
-			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-			<li>Aliquam tincidunt mauris eu risus.</li>
-		</ul>
-		
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+		<div class="presentation">
+		<h2>LE SPÉCIALISTE DE LA RÉNOVATION POUR VOS MENUISERIES</h2>
+			<div class="intro">
+				<div>
+					<p>Rénov' Fermetures implantée à Châteauneuf-sur-Isère dans la Drôme, vous propose la fourniture et la pose de toutes vos menuiseries au sens large de l'activité.</p>
+				</div>
+				<div>
+					<p>Spécialistes de la rénovation et de la réhabilitation de l'habitat, nous intervenons pour la pose de fenêtres, volets battants, volets roulants, moustiquaires, portes et portes de garage. </p>
+				</div>
+				<div>
+					<p>Nous vous proposons différents types de matériaux, bois, PVC, alu et acier et toujours sur-mesure. Nous mettons à votre disposition notre savoir-faire avec la garantie d'un travail sérieux et de qualité.</p>
+				</div>
+				<div>
+					<p>Vous aurez toujours le même interlocuteur qui saura vous écouter et vous conseiller. Une visite de notre site vous donnera un aperçu de l'étendue de notre savoir-faire.</p>
+				</div>
+			</div>
+			<div class="position">
+				<div>
+					<p>Renov' Fermetures, situé à Châteauneuf-sur-Isère, vous propose la fourniture et réalise la pose de fenêtres, de volets et de menuiseries sur le département de la Drôme et dans un rayon de 50km.</p>
+				</div>
+				<div id="map_canvas">	
+				</div>
+				<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+				<script src="JS/map.js"></script>
+			</div>
+		</div>
 	</article>
 	<footer>
 		<div class="mail">

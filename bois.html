@@ -7,34 +7,82 @@
 
   	<link rel="stylesheet" href="CSS/style.css">
   	<link rel="stylesheet" href="CSS/owl.carousel.css">
-  	<link rel="stylesheet" href="CSS/navbar.css"
+  	<link rel="stylesheet" href="CSS/navbar.css">
+  	<link rel="stylesheet" href="CSS/footer.css">
 
 </head>
 
 <body>
-	<div class="nav_container">
-		<img src="images/banniere.jpg" class="banniere">
-		<div class='navbar'>
+	<img src="images/banniere.jpg" class="banniere">
+	<div class='navbar'>
 			<ul>
 				<li class='active'><a href='index.html'><span>Accueil</span></a></li>
-				<li><a href='bois.html'><span>Bois</span></a></li>
-
-				<li><a href='pvc.html'><span>PVC</span></a></li>
-				<li><a href='alu.html'><span>Alu</span></a></li>
-				<li><a href='acier.html'><span>Acier</span></a></li>
+				<li><a href='bois.html'><span>Bois</span></a>
+					<ul class="sous-menu">
+						<li><a href="bois.html#bois-f">Fenêtres</a></li>
+						<li><a href="bois.html#bois-p">Portes</a></li>
+						<li><a href="bois.html#bois-v">Volets</a></li>
+					</ul>
+				</li>
+				<li><a href='pvc.html'><span>PVC</span></a>				
+					<ul class="sous-menu">
+							<li><a href="pvc.html#pvc-f">Fenêtres</a></li>
+							<li><a href="pvc.html#pvc-p">Portes</a></li>
+							<li><a href="pvc.html#pvc-pf">Portes Fenêtres</a></li>
+						</ul>
+					</li>
+				<li><a href='alu.html'><span>Alu</span></a>
+					<ul class="sous-menu">
+						<li><a href="alu.html#alu-b">Baies Vitrées</a></li>
+						<li><a href="alu.html#alu-p">Portes</a></li>
+						<li><a href="alu.html#alu-v">Volets</a></li>
+						<li><a href="alu.html#alu-g">Portes de Garages</a></li>
+					</ul>
+				</li>
+				<li><a href='acier.html'><span>Acier</span></a>
+					<ul class="sous-menu">
+						<li><a href="acier.html">Portes de Garages</a></li>
+					</ul>
+				</li>
 				<li class='last'><a href='#'><span>Nous Contacter</span></a></li>
 			</ul>
 		</div>
+		
+	<div class="container">
+		<h3 id="bois-f">Fenêtres</h3>
+		<div class="photos">
+			<img src="images/Bois/fenetre_bois_1_avant.JPG" title="Fenêtre bois avant remplacement">
+			<img src="images/Bois/fenetre_bois_1_apres.JPG" title="Fenêtre bois aprés remplacement">
+			<img src="images/Bois/fenetre_bois_2_avant.JPG" title="Fenêtre bois avant remplacement">
+			<img src="images/Bois/fenetre_bois_2_apres.JPG" title="Fenêtre bois aprés remplacement">
+		</div>
+	</div>		
+
+	<div class="container">
+		<h3 id="bois-p">Portes</h3>
+		<div class="photos">
+			<img src="images/Bois/porte_bois_1_avant.JPG" title="Fenêtre bois avant remplacement">
+			<img src="images/Bois/porte_bois_1_apres.JPG" title="Fenêtre bois aprés remplacement">
+		</div>
+	</div>
+	<div class="container">
+		<h3 id="bois-v">Volets</h3>
 	</div>
 
-	<article>
-		<h3>Fenêtres</h3>
-			<div>
-				<img src="images/Bois/fenetre_bois_1_avant.JPG" title="Fenêtre bois avant remplacement" width="25%">
-				<img src="images/Bois/fenetre_bois_1_apres.JPG" title="Fenêtre bois avant remplacement" width="25%">
-			</div>
-		<h3>Portes</h3>
-		<h3>Volets</h3>
-	</article>
+	<footer>
+		<div class="mail">
+			<a href="mailto:adrien.giraud0750@orange.fr"><img src="images/mail_icon2.png" width="50px"/></a>
+		</div>
+		<div class="adresse">
+			<h4>Rénov' Fermetures</h4><br>
+			<p>340 rue du Plateau d'Ambel</p>
+			<p>Quartier Bois Raymond</p>
+			<p>26300 Châteauneuf sur Isère</p>
+			<p>Tel: 06.87.15.55.08</p>
+		</div>
+		<div class="reseaux_sociaux">
+			<a href="http://www.facebook.com/renov.fermetures" id="facebook" target="_blank"><img src="images/facebook-red-ico.png" width="50px"/></a>
+		</div>
+	</footer>
 </body>
 </html>
